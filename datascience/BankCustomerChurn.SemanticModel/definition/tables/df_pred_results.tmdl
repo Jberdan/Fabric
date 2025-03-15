@@ -1,0 +1,258 @@
+table df_pred_results
+	lineageTag: 38241dcd-d5ec-4ce8-b126-49d23b9b1cca
+	sourceLineageTag: [dbo].[df_pred_results]
+
+	column CreditScore
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 6e2030b5-683b-4227-94a3-3680ec4d7aa6
+		sourceLineageTag: CreditScore
+		summarizeBy: sum
+		sourceColumn: CreditScore
+
+		annotation SummarizationSetBy = Automatic
+
+	column Age
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 9b34b8ab-1081-4b2f-8d5a-1f3d2d88303c
+		sourceLineageTag: Age
+		summarizeBy: sum
+		sourceColumn: Age
+
+		annotation SummarizationSetBy = Automatic
+
+	column Tenure
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: d2dc27e7-e459-40eb-aa0e-758b32fee910
+		sourceLineageTag: Tenure
+		summarizeBy: sum
+		sourceColumn: Tenure
+
+		annotation SummarizationSetBy = Automatic
+
+	column Balance
+		dataType: double
+		sourceProviderType: float
+		lineageTag: cf3c8a68-6fa2-4534-8987-da4bf7c160fb
+		sourceLineageTag: Balance
+		summarizeBy: sum
+		sourceColumn: Balance
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column NumOfProducts
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 16ddeade-3bc2-4398-80a3-af37b812982d
+		sourceLineageTag: NumOfProducts
+		summarizeBy: sum
+		sourceColumn: NumOfProducts
+
+		annotation SummarizationSetBy = Automatic
+
+	column HasCrCard
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 4ebcec37-bd80-4384-9ca4-1503aca57f75
+		sourceLineageTag: HasCrCard
+		summarizeBy: sum
+		sourceColumn: HasCrCard
+
+		annotation SummarizationSetBy = Automatic
+
+	column IsActiveMember
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 24e12468-dff3-426f-bf2f-ac0179dd5100
+		sourceLineageTag: IsActiveMember
+		summarizeBy: sum
+		sourceColumn: IsActiveMember
+
+		annotation SummarizationSetBy = Automatic
+
+	column EstimatedSalary
+		dataType: double
+		sourceProviderType: float
+		lineageTag: 87fdd0b9-a01d-4695-9429-56c1bab148ac
+		sourceLineageTag: EstimatedSalary
+		summarizeBy: sum
+		sourceColumn: EstimatedSalary
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column NewTenure
+		dataType: double
+		sourceProviderType: float
+		lineageTag: 33a88e6c-2eaa-4b83-9a4d-94167849cfb9
+		sourceLineageTag: NewTenure
+		summarizeBy: sum
+		sourceColumn: NewTenure
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column NewCreditsScore
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: a322c0e7-5698-4d94-8e13-44b2dda03281
+		sourceLineageTag: NewCreditsScore
+		summarizeBy: sum
+		sourceColumn: NewCreditsScore
+
+		annotation SummarizationSetBy = Automatic
+
+	column NewAgeScore
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: e66030aa-9992-4ef9-b460-284917e2a0b1
+		sourceLineageTag: NewAgeScore
+		summarizeBy: sum
+		sourceColumn: NewAgeScore
+
+		annotation SummarizationSetBy = Automatic
+
+	column NewBalanceScore
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: 5b7b37cf-a165-4fcf-8d09-d98812fae95d
+		sourceLineageTag: NewBalanceScore
+		summarizeBy: sum
+		sourceColumn: NewBalanceScore
+
+		annotation SummarizationSetBy = Automatic
+
+	column NewEstSalaryScore
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: 40f66c90-1999-433f-8316-aa887810be31
+		sourceLineageTag: NewEstSalaryScore
+		summarizeBy: sum
+		sourceColumn: NewEstSalaryScore
+
+		annotation SummarizationSetBy = Automatic
+
+	column Geography_France
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		sourceProviderType: bit
+		lineageTag: 758ea6a9-4295-4de9-9f86-44146b0317c3
+		sourceLineageTag: Geography_France
+		summarizeBy: none
+		sourceColumn: Geography_France
+
+		annotation SummarizationSetBy = Automatic
+
+	column Geography_Germany
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		sourceProviderType: bit
+		lineageTag: a2399ce0-3d64-4d56-aff6-dab6fc1a9a32
+		sourceLineageTag: Geography_Germany
+		summarizeBy: none
+		sourceColumn: Geography_Germany
+
+		annotation SummarizationSetBy = Automatic
+
+	column Geography_Spain
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		sourceProviderType: bit
+		lineageTag: b8700368-5c35-4ae0-926d-419604a229d5
+		sourceLineageTag: Geography_Spain
+		summarizeBy: none
+		sourceColumn: Geography_Spain
+
+		annotation SummarizationSetBy = Automatic
+
+	column Gender_Female
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		sourceProviderType: bit
+		lineageTag: 674d7bbf-fa96-407f-ac99-37c1d453f2dc
+		sourceLineageTag: Gender_Female
+		summarizeBy: none
+		sourceColumn: Gender_Female
+
+		annotation SummarizationSetBy = Automatic
+
+	column Gender_Male
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		sourceProviderType: bit
+		lineageTag: cbc786f9-7ed9-45a0-b19f-135cc18e02cd
+		sourceLineageTag: Gender_Male
+		summarizeBy: none
+		sourceColumn: Gender_Male
+
+		annotation SummarizationSetBy = Automatic
+
+	column y_test
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 8edfc172-ed60-4535-b3dc-9f9725c53a29
+		sourceLineageTag: y_test
+		summarizeBy: sum
+		sourceColumn: y_test
+
+		annotation SummarizationSetBy = Automatic
+
+	column ypred_rfc1_sm
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: e72bfe24-e123-4890-bc36-1e8d6e3907af
+		sourceLineageTag: ypred_rfc1_sm
+		summarizeBy: sum
+		sourceColumn: ypred_rfc1_sm
+
+		annotation SummarizationSetBy = Automatic
+
+	column ypred_rfc2_sm
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: ae3d8e04-33ce-4228-8c36-03de52145bdb
+		sourceLineageTag: ypred_rfc2_sm
+		summarizeBy: sum
+		sourceColumn: ypred_rfc2_sm
+
+		annotation SummarizationSetBy = Automatic
+
+	column ypred_lgbm1_sm
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 7eb9b140-0b92-4b36-b88d-3f84feb93375
+		sourceLineageTag: ypred_lgbm1_sm
+		summarizeBy: sum
+		sourceColumn: ypred_lgbm1_sm
+
+		annotation SummarizationSetBy = Automatic
+
+	partition df_pred_results = entity
+		mode: directLake
+		source
+			entityName: df_pred_results
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+
