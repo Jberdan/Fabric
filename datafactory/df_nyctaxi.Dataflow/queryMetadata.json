@@ -1,0 +1,125 @@
+{
+  "formatVersion": "202409",
+  "lastModified": null,
+  "editingSession": {
+    "computeEngineSettings": {
+      "allowFastCopy": true
+    },
+    "editingSessionMashup": {
+      "mashupName": "Dataflow 1",
+      "queryGroups": [],
+      "documentLocale": "en-US",
+      "queriesMetadata": {
+        "nyctlc": {
+          "queryId": "7b69c6c9-8abd-4498-8616-51973571fe87",
+          "queryName": "nyctlc",
+          "queryGroupId": null,
+          "entityName": null,
+          "lastKnownIsCalculatedEntity": null,
+          "lastKnownIsLinkedEntity": null,
+          "lastKnownIsParameter": null,
+          "isHidden": false,
+          "lastKnownResultTypeName": null,
+          "loadEnabled": true,
+          "fieldsMetadata": {},
+          "deleteExistingDataOnLoad": false,
+          "hostProperties": {},
+          "jsonOutputDestinations": null,
+          "bindToDefaultOutputDestination": null,
+          "jsonIncrementalRefreshSettings": null
+        },
+        "Generated-NYC-Taxi-Green-Discounts": {
+          "queryId": "a57ae857-7c3e-4efd-be8b-b07734662ca6",
+          "queryName": "Generated-NYC-Taxi-Green-Discounts",
+          "queryGroupId": null,
+          "entityName": null,
+          "lastKnownIsCalculatedEntity": null,
+          "lastKnownIsLinkedEntity": null,
+          "lastKnownIsParameter": null,
+          "isHidden": false,
+          "lastKnownResultTypeName": null,
+          "loadEnabled": true,
+          "fieldsMetadata": {},
+          "deleteExistingDataOnLoad": false,
+          "hostProperties": {},
+          "jsonOutputDestinations": null,
+          "bindToDefaultOutputDestination": null,
+          "jsonIncrementalRefreshSettings": null
+        },
+        "Output": {
+          "queryId": "69222358-a299-49ba-a56b-b1a474f492da",
+          "queryName": "Output",
+          "queryGroupId": null,
+          "entityName": null,
+          "lastKnownIsCalculatedEntity": null,
+          "lastKnownIsLinkedEntity": null,
+          "lastKnownIsParameter": null,
+          "isHidden": false,
+          "lastKnownResultTypeName": null,
+          "loadEnabled": false,
+          "fieldsMetadata": {},
+          "deleteExistingDataOnLoad": false,
+          "hostProperties": {},
+          "jsonOutputDestinations": null,
+          "bindToDefaultOutputDestination": null,
+          "jsonIncrementalRefreshSettings": null
+        },
+        "Output_DataDestination": {
+          "queryId": "63a300f3-daef-48b5-a9c5-781954e66800",
+          "queryName": "Output_DataDestination",
+          "queryGroupId": null,
+          "entityName": null,
+          "lastKnownIsCalculatedEntity": null,
+          "lastKnownIsLinkedEntity": null,
+          "lastKnownIsParameter": null,
+          "isHidden": true,
+          "lastKnownResultTypeName": null,
+          "loadEnabled": false,
+          "fieldsMetadata": {},
+          "deleteExistingDataOnLoad": false,
+          "hostProperties": {},
+          "jsonOutputDestinations": null,
+          "bindToDefaultOutputDestination": null,
+          "jsonIncrementalRefreshSettings": null
+        }
+      },
+      "connectionOverrides": [
+        {
+          "path": "Lakehouse",
+          "kind": "Lakehouse",
+          "provider": "DmtsFabric",
+          "connectionName": "{\"ClusterId\":\"c767b5d4-b781-4d4e-87da-8a4f9178a5b3\",\"DatasourceId\":\"f37b1b89-f713-436a-aa53-abfeb2853b9d\"}",
+          "credentialDetails": {},
+          "connectionParameters": {}
+        },
+        {
+          "path": "https://raw.githubusercontent.com/ekote/azure-architect/master/Generated-NYC-Taxi-Green-Discounts.csv",
+          "kind": "Web",
+          "provider": "DmtsFabric",
+          "connectionName": "{\"ClusterId\":\"c767b5d4-b781-4d4e-87da-8a4f9178a5b3\",\"DatasourceId\":\"14310043-2ccf-4483-aaaf-d22fca701d3c\"}",
+          "credentialDetails": {},
+          "connectionParameters": {}
+        }
+      ],
+      "trustedConnections": [
+        {
+          "path": "Lakehouse",
+          "kind": "Lakehouse",
+          "provider": "DmtsFabric",
+          "connectionName": "{\"ClusterId\":\"c767b5d4-b781-4d4e-87da-8a4f9178a5b3\",\"DatasourceId\":\"f37b1b89-f713-436a-aa53-abfeb2853b9d\"}",
+          "credentialDetails": {},
+          "connectionParameters": {}
+        }
+      ],
+      "useHostConnectionProvider": false,
+      "fastCombine": true,
+      "allowNativeQueries": true,
+      "skipAutomaticTypeAndHeaderDetection": false,
+      "hostProperties": {
+        "dataflowRefreshOutputFileFormat": "Parquet",
+        "enableDateTimeFieldsForStaging": "true",
+        "enablePublishWithoutLoadedQueries": "true"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "df_nyctaxi"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "f8340d99-2218-a40a-49cb-323fd9d20068"
+  }
+}
