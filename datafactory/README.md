@@ -15,3 +15,7 @@ In this project, I utilized "Copy data assistant" for copy to activity.  At the 
 So instead, I went back in my workspace and from there I filtered the Type to "Data pipeline" and there I can find my newly created data pipeline. To run, I clicked on the ellipsis and hit Schedule.  System will prompt a dialog box. Here you are given a chance to schedule the run of your pipeline or execute it manually. In this case, I wanted to run to test whether the pipeline is working or not.
 
 Once I run the pipeline, you can monitor it's progress by either clcking the data pipeline created and from the "Output" tab you will see the activity status.  Alternatively, Fabric Monitor, will display the same.
+
+Pipeline Path:
+datafactory/pl_copy_sampleNYCtaxi_lakehouse.DataPipeline
+
